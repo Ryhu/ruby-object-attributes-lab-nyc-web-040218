@@ -1,9 +1,17 @@
-class Dog 
-  def bark
-    puts "Woof!"
+class Person
+  def name=(input)
+    @name = input
   end
   
-  def sit 
-    puts "The Dog is sitting"
+  def name
+    @name
   end
+  
+  def breed=(input)
+    @breed = input
+  end
+  
+  def breed
+    @breed
+  end 
 end
