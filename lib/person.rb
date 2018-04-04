@@ -11,7 +11,7 @@ class Person
     @breed = input
   end
   
-  def breed
+  def breeda
     @breed
   end 
 end
